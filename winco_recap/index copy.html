@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>WinCo Event Recap Form</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="css/animate.css" rel="stylesheet" />
+    <!-- Squad theme CSS -->
+    <link href="css/style.css" rel="stylesheet">
+	<link href="color/default.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+	<!-- Preloader -->
+<!--
+	<div id="preloader">
+	  <div id="load"></div>
+	</div>
+-->
+
+    <nav class="navbar navbar-custom navbar-fixed-top top-nav-collapse" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <h1>Recap Form</h1>
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#intro">Home</a></li>
+        <li><a href="#about">Info</a></li>
+		<li><a href="#service">Products</a></li>
+		<li><a href="#contact">Comments</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Example menu</a></li>
+            <li><a href="#">Example menu</a></li>
+            <li><a href="#">Example menu</a></li>
+          </ul>
+        </li>
+      </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+	
+	
+	<!-- Section: intro -->
+    <section id="intro" class="intro">
+	
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-6 col-sm-3 col-md-3">
+					<div class="boxed-grey">
+						<p>Job #: <span class="bold">25431</span></p>
+						<h4 class="fmf" data-fmfield="Show::BillingCode">DELI-WIN-130802</h4>
+						
+					</div>
+				</div>
+				<div class="col-xs-6 col-sm-3 col-md-3">
+					<div class="boxed-grey">
+						<p>Store: <span class="bold">Winco 73</span></p>
+						<p class="addr">7020 S. 700 W<br>Midvale, UT  84057<br>(801) 748-0086</p>
+					</div>
+				</div>
+				<div class="col-xs-6 col-sm-3 col-md-3">
+					<div class="boxed-grey">
+						<p>Demo Date: <div class="bold fmf" data-fmfield="ShowSchedule::date">8/2/2013</div></p>
+						<p>Demo Time: <div class="bold">2:00pm to 6:00pm</div></p>
+					</div>
+				</div>
+				<div class="col-xs-6 col-sm-3 col-md-3">
+					<div class="boxed-grey">
+						<p>Demonstrator: <div class="bold" data-fmfield="ShowSchedule::rep">Connie Best</div></p>
+						<p>Scheduler: <div class="bold fmf" data-fmfield="Show_ReportEventForm::Manager">Kara Wiley</div></p>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		
+		<div>
+		</div>
+	
+    </section>
+	<!-- /Section: intro -->
+	
+		<!-- Section: date and time -->
+    <section id="" class="intro">
+	
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-md-6">
+					<div class="boxed-grey">
+						  <div class="form-group">
+						    <label for="actualdate">Actual Date</label>
+						    <input type="date" class="form-control" id="actualdate" placeholder="Enter Date of Demo">
+						  </div>
+					</div>
+				</div>
+				<div class="col-xs-6 col-sm-3 col-md-3">
+					<div class="boxed-grey">
+						  <div class="form-group">
+						    <label for="actualtimein">Time Start</label>
+						    <input type="time" class="form-control" id="actualtimein" placeholder="Start Time">
+						  </div>
+						  <div class="form-group">
+						    <label for="actualtimeout">Time End</label>
+						    <input type="time" class="form-control" id="actualtimeout" placeholder="End Time">
+						  </div>
+					</div>
+
+				</div>
+				<div class="col-xs-6 col-sm-3 col-md-3">
+					<div class="boxed-grey">
+						<div class="form-group">
+						    <label for="hours">Hours Worked</label>
+						    <input type="number" class="form-control" id="hours" placeholder="Hours">
+					  </div>
+					</div>
+				</div>
+				
+				
+			</div>
+		</div>
+		
+		<div>
+		</div>
+
+
+    </section>
+	<!-- /Section: date and time -->
+
+		<!-- Section: form -->
+    <section id="service" class="intro">
+	
+		<div class="container">
+			<div id="productload" class="row">
+				<!-- beging Products -->
+				<div class="col-xs-12 col-sm-6 col-md-6">
+					<h5>Products</h5>
+					<div class="boxed-grey" style="">
+						<p><span class="bold">2-37024-00000</span> - Salad F/S Berry Bloom</p>
+						<div style="">
+							<div class="col-xs-3 col-sm-3 col-md-3" style="font-size: small;"># of Samples</div>
+						
+							<div class="col-xs-3 col-sm-3 col-md-3">
+								<textarea name="samples" rows="1" cols="3" placeholder=""></textarea>
+							</div>
+							
+							<div class="col-xs-3 col-sm-3 col-md-3" style="">Product Used</div>
+						
+							<div class="col-xs-1 col-sm-1 col-md-1" contenteditable="" style="">
+								<textarea name="samples" rows="1" cols="3" placeholder=""></textarea>
+							</div>
+						
+						</div>
+						
+						<div style="clear: both;padding-top: 20px;">
+							<input type="checkbox" id="checkbox68" class="css-checkbox" />
+							<label for="checkbox68" name="checkbox68_lbl" class="css-label chrome-style" style="margin-left: 3px;"> Used a substitute</label>
+						</div>
+						
+						<div>
+						<div style="">
+							<div class="form-group">
+							    <label for="upc">Substitute Product UPC</label>
+							    <input type="text" class="form-control" id="upc" placeholder="UPC">
+							</div>
+							<div class="form-group">
+							    <label for="productname">Substitute Product Name</label>
+							    <input type="text" class="form-control" id="productname" placeholder="Product Name">
+							</div>
+							<div class="form-group">
+							    <label for="stime">Time of Substitute</label>
+							    <input type="time" class="form-control" id="stime" placeholder="Enter Time">
+							</div>
+							
+						
+						<div style="">
+							<div class="col-xs-3 col-sm-3 col-md-3" style=""># of Samples</div>
+						
+							<div class="col-xs-3 col-sm-3 col-md-3">
+								<textarea name="samples" rows="1" cols="3" placeholder=""></textarea>
+							</div>
+							
+							<div class="col-xs-3 col-sm-3 col-md-3" style="">Product Used</div>
+						
+							<div class="col-xs-1 col-sm-1 col-md-1" contenteditable="" style="">
+								<textarea name="samples" rows="1" cols="3" placeholder=""></textarea>
+							</div>
+						
+						</div>
+
+						
+						</div>
+						
+						
+						
+						</div>
+						
+					</div>
+				</div>
+				
+				<div class="col-xs-12 col-sm-6 col-md-6">
+					<div class="boxed-grey" style="">
+						<p><span class="bold">04051-04305</span> - Dbl Smoked</p>
+						<div style="">
+							<div class="col-xs-3 col-sm-3 col-md-3" style=""># of Samples</div>
+						
+							<div class="col-xs-3 col-sm-3 col-md-3">
+								<textarea name="samples" rows="1" cols="3" placeholder=""></textarea>
+							</div>
+							
+							<div class="col-xs-3 col-sm-3 col-md-3" style="">Product Used</div>
+						
+							<div class="col-xs-1 col-sm-1 col-md-1" contenteditable="" style="">
+								<textarea name="samples" rows="1" cols="3" placeholder=""></textarea>
+							</div>
+						
+						</div>
+
+						
+						<div style="clear: both;padding-top: 20px;margin-bottom: 50px;">
+							<input type="checkbox" id="checkbox68" class="css-checkbox" />
+							<label for="checkbox68" name="checkbox68_lbl" class="css-label chrome-style" style="margin-left: 3px;"> Used a substitute</label>
+						</div>
+						
+						
+					</div>
+				</div>
+
+				
+				
+				
+			</div>
+		</div>
+		
+	<div>
+	</div>
+	
+	
+
+
+    </section>
+	<!-- /Section: form -->
+	
+	<!-- Add the extra clearfix for only the required viewport -->
+  <div class="clearfix visible-xs-block" style="margin-top: 30px;"></div>
+	
+
+		<!-- Section: comments -->
+    <section id="contact" class="about">
+	
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-md-6">
+					<div class="">
+						<p><span class="bold">Comments</span> - DELI-WIN-130802</p>
+						<div class="col-xs-offset-1">
+						<div class="form-group">
+						    <label for="comment01">Customer Comment 1</label>
+						    <input type="text" class="form-control" id="comment01" placeholder="Customer Comment">
+						</div>
+						<div class="form-group">
+						    <label for="comment02">Customer Comment 2</label>
+						    <input type="text" class="form-control" id="comment02" placeholder="Customer Comment">
+						</div>
+						<div class="form-group">
+						    <label for="comment03">Customer Comment 3</label>
+						    <input type="text" class="form-control" id="comment03" placeholder="Customer Comment">
+						</div>
+						<div class="form-group">
+						    <label for="comment04">Customer Comment 4</label>
+						    <input type="text" class="form-control" id="comment04" placeholder="Customer Comment">
+						</div>
+						</div>
+						
+						
+					</div>
+				</div>
+				
+				
+				
+				
+				
+			</div>
+		</div>
+
+    </section>
+	<!-- /Section: comments -->
+
+<section class="about">
+	<div class="row">
+	<div class="col-xs-12 col-sm-6 col-md-6">
+	Save Recap
+	</div>
+	</div>
+</section>
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-lg-12">
+<!-- 					<div class="wow shake" data-wow-delay="0.4s"> -->
+					<div class="page-scroll marginbot-30">
+						<a href="#intro" id="totop" class="btn btn-circle">
+							<i class="fa fa-angle-double-up animated"></i>
+						</a>
+					</div>
+<!-- 					</div> -->
+					<p></p>
+				</div>
+			</div>	
+		</div>
+	</footer>
+
+    <!-- Core JavaScript Files -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>	
+	<script src="js/jquery.scrollTo.js"></script>
+	<script src="js/wow.min.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>
